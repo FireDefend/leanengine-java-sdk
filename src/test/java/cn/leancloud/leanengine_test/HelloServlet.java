@@ -25,8 +25,8 @@ public class HelloServlet extends HttpServlet {
     LeanEngine.register(AllEngineFunctions.class);
     LeanEngine.register(AllEngineHook.class);
     LeanEngine.register(AllIMHook.class);
-    AVOSCloud.initialize("uu2P5gNTxGhjyaJGAPPnjCtJ-gzGzoHsz", "j5lErUd6q7LhPD8CXhfmA2Rg",
-        "atXAmIVlQoBDBLqumMgzXhcY");
+    AVOSCloud.initialize("CHmmO5noAiJp8SlXhPRFhfKX-gzGzoHsz", "hyDApeA504iNoifStd2QblbL",
+        "QPHl44Dh8U7cRys06fluHErr");
     JavaRequestSignImplementation.instance().setUseMasterKey(true);
   }
 
