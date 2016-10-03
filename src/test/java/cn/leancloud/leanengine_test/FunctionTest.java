@@ -145,8 +145,8 @@ public class FunctionTest extends EngineBasicTest {
 
   @Test
   public void testCookieUser() throws AVException, URISyntaxException, IOException {
-    AVOSCloud.initialize("uu2P5gNTxGhjyaJGAPPnjCtJ-gzGzoHsz", "j5lErUd6q7LhPD8CXhfmA2Rg",
-        "atXAmIVlQoBDBLqumMgzXhcY");
+    AVOSCloud.initialize("CHmmO5noAiJp8SlXhPRFhfKX-gzGzoHsz", "hyDApeA504iNoifStd2QblbL",
+        "QPHl44Dh8U7cRys06fluHErr");
     AVUser u = new AVUser();
     u.setUsername("spamUser");
     u.setPassword("123123123");
