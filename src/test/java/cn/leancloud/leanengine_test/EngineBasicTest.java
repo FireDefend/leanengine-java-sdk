@@ -35,8 +35,8 @@ public class EngineBasicTest {
     System.setProperty("LEANCLOUD_APP_PORT", "3000");
     System.setProperty("LC_API_SERVER", "https://api.leancloud.cn");
     AVObject.registerSubclass(Todo.class);
-    LeanEngine.initialize("uu2P5gNTxGhjyaJGAPPnjCtJ-gzGzoHsz", "j5lErUd6q7LhPD8CXhfmA2Rg",
-        "atXAmIVlQoBDBLqumMgzXhcY");
+    LeanEngine.initialize("CHmmO5noAiJp8SlXhPRFhfKX-gzGzoHsz", "hyDApeA504iNoifStd2QblbL",
+        "QPHl44Dh8U7cRys06fluHErr");
     LeanEngine.setLocalEngineCallEnabled(true);
     LeanEngine.setUseMasterKey(true);
     LeanEngine.addSessionCookie(new EngineSessionCookie(secret, 160000, true));
@@ -72,11 +72,11 @@ public class EngineBasicTest {
   }
 
   protected String getAppId() {
-    return "uu2P5gNTxGhjyaJGAPPnjCtJ-gzGzoHsz";
+    return "CHmmO5noAiJp8SlXhPRFhfKX-gzGzoHsz";
   }
 
   protected String getAppKey() {
-    return "j5lErUd6q7LhPD8CXhfmA2Rg";
+    return "QPHl44Dh8U7cRys06fluHErr";
   }
 
   protected String getMasterKey() {
